@@ -26,7 +26,8 @@ for help on creating Windows executables.
 from distutils.core import setup
 import glob
 import os.path
-from transitfeed import __version__ as VERSION
+#from transitfeed import __version__ as VERSION
+VERSION="1.3.0"
 
 try:
   import py2exe
